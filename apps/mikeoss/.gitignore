@@ -1,0 +1,37 @@
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Builds and caches
+dist/
+.next/
+.open-next/
+.wrangler/
+coverage/
+*.tsbuildinfo
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Supabase local runtime state
+supabase/.branches/
+supabase/.temp/
+
+# Local data, uploads, and model files
+local-data/
+uploads/
+storage/
+/models/
+*.gguf
+*.safetensors
+*.bin
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

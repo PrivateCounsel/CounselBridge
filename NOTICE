@@ -1,0 +1,35 @@
+CounselBridge
+
+Copyright (c) 2026 Private Counsel.
+Licensed under the GNU Affero General Public License version 3.
+NO WARRANTY is provided, to the extent permitted by law.
+
+CounselBridge is authored by Private Counsel for Private Counsel.
+
+Third-party attribution:
+
+- MikeOSS / Mike: CounselBridge includes an adapted copy of the MikeOSS legal
+  document assistant under `apps/mikeoss/`. MikeOSS / Mike is an upstream
+  open-source legal document assistant project licensed under the GNU Affero
+  General Public License v3.0. Upstream reference:
+  https://github.com/Just-Mike-It/mike
+  Original copyright remains with the upstream authors and contributors of the
+  Just-Mike-It/mike project.
+  Third-party MikeOSS code, assets, and dependencies retain their original
+  copyrights and license terms. CounselBridge modifications are Copyright (c)
+  2026 Private Counsel.
+
+- Claude for Legal: CounselBridge is designed to interoperate with a local
+  checkout of Anthropic's Claude for Legal reference repository under
+  `references/claude-for-legal/`. Claude for Legal is licensed under the
+  Apache License 2.0. Upstream reference:
+  https://github.com/anthropics/claude-for-legal
+  That checkout is intentionally ignored by git and is not vendored into this
+  repository. Claude for Legal and related third-party materials retain their
+  own copyrights, licenses, and notices.
+
+CounselBridge is not affiliated with or endorsed by MikeOSS / Mike, Anthropic,
+or Claude for Legal.
+
+See project documentation and upstream repositories for applicable third-party
+terms.

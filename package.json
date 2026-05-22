@@ -1,0 +1,14 @@
+{
+  "name": "counselbridge",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "setup": "./scripts/setup.sh",
+    "setup:with-claude-legal": "./scripts/setup.sh --with-claude-legal",
+    "dev:mikeoss": "./scripts/dev-mikeoss.sh",
+    "dev:gateway": "npm run dev --prefix services/counselbridge-gateway",
+    "check:mikeoss": "npm run check:local --prefix apps/mikeoss",
+    "build:mikeoss": "npm run build:backend --prefix apps/mikeoss && npm run build:frontend --prefix apps/mikeoss"
+  }
+}

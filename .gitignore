@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+
+# Private/generated legal material
+out/
+uploads/
+generated/
+*.sqlite
+*.db
+
+# Model weights and local indexes
+*.gguf
+*.safetensors
+*.faiss
+*.bin
+
+# External reference checkouts
+references/claude-for-legal/
